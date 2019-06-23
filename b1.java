@@ -8,7 +8,9 @@ class b1 {
 		{
 		    System.out.print("Positive");
 		}
-		else
+		else if(n<0)
 		System.out.print("Negative");
+		else
+		System.out.print("Zero");
 	}
 }
